@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: orange;
+	color: white;
+	
+}
+
+section {
+	text-align: center;
+	margin-top: 15%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h4 {
+	padding: 20px;
+	font-size: 2rem;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+	border: 1px solid white;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+}
+
+input:hover {
+	background-color: orangered;
+}
+
+input:active {
+	background-color: red;
+}
+
+input:focus {
+	outline: none;
+}
